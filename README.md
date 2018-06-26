@@ -1,3 +1,26 @@
+## rc_cloud_accumulator (indigo) - 1.0.2-0
+
+The packages in the `rc_cloud_accumulator` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo rc_cloud_accumulator` on `Tue, 26 Jun 2018 08:04:12 -0000`
+
+The `rc_cloud_accumulator` package was released.
+
+Version of package(s) in repository `rc_cloud_accumulator`:
+
+- upstream repository: https://github.com/roboception/rc_cloud_accumulator.git
+- release repository: https://github.com/roboception-gbp/rc_cloud_accumulator-release.git
+- rosdistro version: `1.0.0-0`
+- old version: `1.0.0-0`
+- new version: `1.0.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## rc_cloud_accumulator (melodic) - 1.0.0-0
 
 The packages in the `rc_cloud_accumulator` repository were released into the `melodic` distro by running `/usr/bin/bloom-release rc_cloud_accumulator --track melodic --ros-distro melodic --new-track` on `Tue, 19 Jun 2018 08:44:05 -0000`
