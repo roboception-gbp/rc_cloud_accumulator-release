@@ -1,0 +1,12 @@
+Source: ros-lunar-rc-cloud-accumulator
+Section: misc
+Priority: extra
+Maintainer: Felix Endres <felix.endres@roboception.de>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-lunar-catkin, ros-lunar-geometry-msgs, ros-lunar-nav-msgs, ros-lunar-pcl-ros, ros-lunar-roscpp, ros-lunar-std-srvs, ros-lunar-tf2, ros-lunar-tf2-msgs, ros-lunar-tf2-ros
+Homepage: https://wiki.ros.org/rc_cloud_accumulator
+Standards-Version: 3.9.2
+
+Package: ros-lunar-rc-cloud-accumulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-lunar-geometry-msgs, ros-lunar-nav-msgs, ros-lunar-pcl-ros, ros-lunar-roscpp, ros-lunar-std-srvs, ros-lunar-tf2, ros-lunar-tf2-msgs, ros-lunar-tf2-ros
+Description: A viewer for the SLAM component of roboception based on ROS and PCL
