@@ -1,0 +1,34 @@
+ros-melodic-rc-cloud-accumulator (1.0.4-0stretch) stretch; urgency=high
+
+  * Merged pull request by Mikael Arguedas to fix debian stretch builds
+
+ -- Felix Endres <felix.endres@roboception.de>  Tue, 03 Jul 2018 22:00:00 -0000
+
+ros-melodic-rc-cloud-accumulator (1.0.3-0stretch) stretch; urgency=high
+
+  * Properly shutdown visualization thread on exit
+  * Wait 0.25s for the transformations of clouds
+  * Remove -mfpu=neon on arm64 to fix ROS build
+
+ -- Felix Endres <felix.endres@roboception.de>  Mon, 02 Jul 2018 22:00:00 -0000
+
+ros-melodic-rc-cloud-accumulator (1.0.2-0stretch) stretch; urgency=high
+
+  * Fixup version numbers in package.xml and CHANGELOG.rst
+  * Update cmake files from project template
+
+ -- Felix Endres <felix.endres@roboception.de>  Sun, 24 Jun 2018 22:00:00 -0000
+
+ros-melodic-rc-cloud-accumulator (1.0.1-0stretch) stretch; urgency=high
+
+  * Fixup compile flags for aarch64
+
+ -- Felix Endres <felix.endres@roboception.de>  Tue, 19 Jun 2018 22:00:00 -0000
+
+ros-melodic-rc-cloud-accumulator (1.0.0-0stretch) stretch; urgency=high
+
+  * Initial release
+
+ -- Felix Endres <felix.endres@roboception.de>  Thu, 14 Jun 2018 22:00:00 -0000
+
+
